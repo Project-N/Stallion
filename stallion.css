@@ -1,0 +1,8 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input[type="button"],
+button :focus {
+  outline: none;
+  border: none;
+}
