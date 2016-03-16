@@ -1,3 +1,3 @@
-# Spiky Lizard
-A responsive CSS framework  
+# Stallion
+A responsive CSS framework with horsepower
 Written by Cayden Lund, Trevor Jex, and Dakota Harward.
