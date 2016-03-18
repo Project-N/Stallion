@@ -11,6 +11,11 @@ input[type="button"] {
   min-width: 50px;
   border-radius: 5px;
 }
+button:active,
+input[type="button"]:active {
+  background: #DDD;
+  border: 1px solid #888;
+}
 @media (min-aspect-ratio: 1/1) {
   
 }
