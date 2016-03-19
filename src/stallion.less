@@ -1,25 +1,76 @@
+@media (min-aspect-ratio:1/1){
+//Use this section for desktop styling
+	
+
+h1{
+	font-size:30pt;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
 * {
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12pt;
 }
 
 button,input[type="button"]{
-	color:black;
+	color:#111;
 	padding:1px;
-	font-size:15px;
+	font-size:12pt;
 	background:#EEE;
 	border:1px solid #999;
-	min-width:50px;
+	padding-left:15px;
+	padding-right:15px;
 	border-radius:5px;
+}
+.container{
+	margin-left:10%;
+	margin-right:10%;
 }
 button:active,input[type="button"]:active{
 	background:#DDD;
+	color:#000;
 	border:1px solid #888;
 }
-@media (min-aspect-ratio:1/1){
-//Use this section for desktop styling
+
 
 }
 @media (max-aspect-ratio:1/1){
 //Use this section for mobile styling
+
+* {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14pt;
+}
+
+
+h1{
+	font-size:40pt;
+}
+.container{
+	margin:0px;
+}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+button,input[type="button"]{
+	color:#111;
+	padding:1px;
+	font-size:25pt;
+	background:#EEE;
+	border:1px solid #999;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;
+}
+button:active,input[type="button"]:active{
+	background:#BBB;
+	color:#000;
+	border:1px solid #666;
+}
 
 }
